@@ -2,9 +2,7 @@
 
 let si = "si";
 let no = "no";
-let despedida ()=> {
-  alert("Nos vemos pronto! Te saluda la Fing.")
-};
+
 //array con datos inventados
 const estudiantes = [
   { cedula: 54607892, nombre: "juan", apellido: "perez" },
@@ -40,7 +38,7 @@ if (registro === "si") {
 function ingreso(E,S) {
   if (E = true)
   let entrada = prompt("Ingresas a la Fing?");
-}else {
+}if {
   let salida = prompt("Sales a la Fing?");
   if (S){
     let cedula = prompt("Ingresa tu cedula sin puntos ni guiones");
