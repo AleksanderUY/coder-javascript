@@ -5,13 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images\favicon.webp" type="image/x-icon">
     <title>Registro de ingreso Fing</title>
+
+
 </head>
 <body>
-    <div id="titulo">
-    <h1 class="tituloPrincipal">Sistema de registro de estudiantes de la Fing</h1>
-    <p id="parrafo">pruebas</p>
-</div>
-    <script src="./js/preEntrega.js"></script>
+    <header class="header">
+        <h1 class="bienvenida">Control de ingreso a Fing</h1>
+        <img class="logo" src="images\logoFing.webp" alt="logo">
+    </header>
+    <div id="paso1"></div>
+    <div id="paso2">
+        <form id="salidaForm" action="">
+            <h2 id="tituloSalida">Ingresar cedula</h2>
+            <label for="cedulaSalida">
+                <input type="text" name="cedulaSalida" id="cedulaSalida">
+                <input type="submit" value="Aceptar" id="summitSalida">
+            </label>
+        </form>
+    </div>
+    <div id="paso3"></div>
+    <div id="paso4"></div>
+    <script src="js/main.js"></script>
+
 </body>
 </html>
