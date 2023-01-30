@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images\favicon.webp" type="image/x-icon">
-    <title>Registro de ingreso Fing</title>
+    <title>Control de ingreso a Fing</title>
 
 
 </head>
@@ -15,7 +15,10 @@
         <h1 class="bienvenida">Control de ingreso a Fing</h1>
         <img class="logo" src="images\logoFing.webp" alt="logo">
     </header>
-    <div id="paso1"></div>
+    <div id="paso1">
+        <button id="entrada">Entrada</button>
+        <button id="salida">Salida</button>
+    </div>
     <div id="paso2">
         <form id="salidaForm" action="">
             <h2 id="tituloSalida">Ingresar cedula</h2>
@@ -25,7 +28,34 @@
             </label>
         </form>
     </div>
-    <div id="paso3"></div>
+    <div id="pasoRegistro">
+        <form id="registro" action="">
+        <label for="nombreCompleto">
+            Nombre Completo<input type="text">
+        </label>
+        <label for="cedula">
+            Cedula<input type="text">
+        </label>
+        <select id="selectInstitucion">
+          <option value="Ingenieria">Ingeniería</option>
+          ...
+        </select>
+        <label for="enviar"><input type="submit" value="enviar"></label>
+    </form>
+      </div>
+    <div id="ingresoRegistro">
+        <button id="entrada">Ingresar</button>
+        <button id="salida">Registrarse</button>
+    </div>
+    <div id="paso2">
+        <form id="EntradaForm" action="">
+            <h2 id="cedulaEntrada">Ingresar Cedula</h2>
+            <label for="cedulaEntrada">
+                <input type="text" name="cedulaEntrada" id="cedulaEntrada">
+                <input type="submit" value="Aceptar" id="summitEntrada">
+            </label>
+        </form>
+    </div>
     <div id="paso4"></div>
     <script src="js/main.js"></script>
 
